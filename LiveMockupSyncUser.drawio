@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T15:01:08.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sDjDnxZa8ekt4W9S_xTv" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T17:00:38.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wUPRNo2RhPqn-w868822" version="21.0.2" type="github">
   <diagram name="Page-1" id="vaZ_NBMNZiOxB9OWbqFk">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,8 +20,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-520" y="40" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="23" y="-50" />
-              <mxPoint x="-520" y="-50" />
+              <mxPoint x="23" y="-60" />
+              <mxPoint x="-520" y="-60" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -85,17 +85,8 @@
         <mxCell id="J-XPp05Y6ZuYuPJLKpOz-21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#7488a3;shape=mxgraph.mscae.system_center.roles" parent="J-XPp05Y6ZuYuPJLKpOz-41" vertex="1">
           <mxGeometry x="18" width="42" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="J-XPp05Y6ZuYuPJLKpOz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="J-XPp05Y6ZuYuPJLKpOz-21" target="J-XPp05Y6ZuYuPJLKpOz-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="J-XPp05Y6ZuYuPJLKpOz-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="J-XPp05Y6ZuYuPJLKpOz-21" target="J-XPp05Y6ZuYuPJLKpOz-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="J-XPp05Y6ZuYuPJLKpOz-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="J-XPp05Y6ZuYuPJLKpOz-21" target="J-XPp05Y6ZuYuPJLKpOz-32" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="J-XPp05Y6ZuYuPJLKpOz-46" value="&lt;u style=&quot;font-weight: bold;&quot;&gt;Scénario 2&lt;/u&gt;&lt;b&gt;&amp;nbsp;: Synchronisation d&#39;une base de données utilisateur &amp;lt;-&amp;gt; tenant local dans MUM. avec toutes les instances de LiveAccess&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="970" width="770" height="30" as="geometry" />
+          <mxGeometry x="35" y="910" width="770" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J-XPp05Y6ZuYuPJLKpOz-47" value="&lt;b&gt;Avantages :&lt;/b&gt;&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;Inconvénients :&lt;/b&gt;&lt;br&gt;-&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1450" width="460" height="140" as="geometry" />
@@ -287,8 +278,48 @@
         <mxCell id="J-XPp05Y6ZuYuPJLKpOz-114" value="&lt;b&gt;Problèmes à prendre en compte :&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1 - Comment gérons nous l&#39;administration (ajout, édition, suppression) des tenants.&lt;br&gt;&lt;br&gt;2 - L&#39;affichage de tous les tenants à la connexion d&#39;un utilisateur (y compris ceux dont il ne fait pas partie en sachant qu&#39;il ne pourra pas s&#39;y connecter).&lt;br&gt;&lt;br&gt;3 - Suppression de la page d&#39;authentification de MUM et connexion en SSO via Live Access automatiquement dans le code." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="74" y="2620" width="460" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="J-XPp05Y6ZuYuPJLKpOz-115" value="&lt;b&gt;Propositions :&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1 - Page de gestion (ajout, édition, suppression)&amp;nbsp;des tenants accessible à un admin MUM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="J-XPp05Y6ZuYuPJLKpOz-115" value="&lt;b&gt;Propositions :&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1 - Page de gestion (ajout, édition, suppression)&amp;nbsp;des tenants accessible à un &lt;b&gt;admin spécifique MUM&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="74" y="2810" width="646" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="349.56" width="93.17" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-4" value="" style="group" vertex="1" connectable="0" parent="gk8aET_ByoF8bxcNg4Vb-1">
+          <mxGeometry width="93.17" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-2" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;" vertex="1" parent="gk8aET_ByoF8bxcNg4Vb-4">
+          <mxGeometry x="26.309999999999945" width="40.54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-3" value="Table Tenant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gk8aET_ByoF8bxcNg4Vb-4">
+          <mxGeometry y="30" width="93.17" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gk8aET_ByoF8bxcNg4Vb-2" target="J-XPp05Y6ZuYuPJLKpOz-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="177" y="240" />
+              <mxPoint x="547" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="gk8aET_ByoF8bxcNg4Vb-2" target="J-XPp05Y6ZuYuPJLKpOz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gk8aET_ByoF8bxcNg4Vb-3" target="J-XPp05Y6ZuYuPJLKpOz-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="177" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="393" y="1850" width="110" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-10" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.database_server;fillColor=#515151;strokeColor=#515151;fontColor=#ffffff;" vertex="1" parent="gk8aET_ByoF8bxcNg4Vb-9">
+          <mxGeometry x="5.74" y="-20" width="35.04" height="46.11" as="geometry" />
+        </mxCell>
+        <mxCell id="gk8aET_ByoF8bxcNg4Vb-11" value="Id provifer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gk8aET_ByoF8bxcNg4Vb-9">
+          <mxGeometry x="-23" y="31.33" width="100" height="15.67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
